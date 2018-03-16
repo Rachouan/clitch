@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BC8B20F205AA3B8009BACDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */; };
+		6BC8B211205AA3B8009BACDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B210205AA3B8009BACDF /* ViewController.swift */; };
+		6BC8B214205AA3B8009BACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B212205AA3B8009BACDF /* Main.storyboard */; };
+		6BC8B216205AA3B8009BACDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B215205AA3B8009BACDF /* Assets.xcassets */; };
+		6BC8B219205AA3B8009BACDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B217205AA3B8009BACDF /* LaunchScreen.storyboard */; };
+		6BC8B224205AA3B8009BACDF /* ClitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B223205AA3B8009BACDF /* ClitchTests.swift */; };
+		6BC8B22F205AA3B8009BACDF /* ClitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B22E205AA3B8009BACDF /* ClitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BC8B220205AA3B8009BACDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC8B203205AA3B7009BACDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC8B20A205AA3B7009BACDF;
+			remoteInfo = Clitch;
+		};
+		6BC8B22B205AA3B8009BACDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC8B203205AA3B7009BACDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC8B20A205AA3B7009BACDF;
+			remoteInfo = Clitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BC8B20B205AA3B8009BACDF /* Clitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BC8B210205AA3B8009BACDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BC8B213205AA3B8009BACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BC8B215205AA3B8009BACDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BC8B218205AA3B8009BACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BC8B21A205AA3B8009BACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC8B21F205AA3B8009BACDF /* ClitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC8B223205AA3B8009BACDF /* ClitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClitchTests.swift; sourceTree = "<group>"; };
+		6BC8B225205AA3B8009BACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC8B22A205AA3B8009BACDF /* ClitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC8B22E205AA3B8009BACDF /* ClitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClitchUITests.swift; sourceTree = "<group>"; };
+		6BC8B230205AA3B8009BACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC8B208205AA3B7009BACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8B21C205AA3B8009BACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8B227205AA3B8009BACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC8B202205AA3B7009BACDF = {
+			isa = PBXGroup;
+			children = (
+				6BC8B20D205AA3B8009BACDF /* Clitch */,
+				6BC8B222205AA3B8009BACDF /* ClitchTests */,
+				6BC8B22D205AA3B8009BACDF /* ClitchUITests */,
+				6BC8B20C205AA3B8009BACDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC8B20C205AA3B8009BACDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8B20B205AA3B8009BACDF /* Clitch.app */,
+				6BC8B21F205AA3B8009BACDF /* ClitchTests.xctest */,
+				6BC8B22A205AA3B8009BACDF /* ClitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC8B20D205AA3B8009BACDF /* Clitch */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */,
+				6BC8B210205AA3B8009BACDF /* ViewController.swift */,
+				6BC8B212205AA3B8009BACDF /* Main.storyboard */,
+				6BC8B215205AA3B8009BACDF /* Assets.xcassets */,
+				6BC8B217205AA3B8009BACDF /* LaunchScreen.storyboard */,
+				6BC8B21A205AA3B8009BACDF /* Info.plist */,
+			);
+			path = Clitch;
+			sourceTree = "<group>";
+		};
+		6BC8B222205AA3B8009BACDF /* ClitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8B223205AA3B8009BACDF /* ClitchTests.swift */,
+				6BC8B225205AA3B8009BACDF /* Info.plist */,
+			);
+			path = ClitchTests;
+			sourceTree = "<group>";
+		};
+		6BC8B22D205AA3B8009BACDF /* ClitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8B22E205AA3B8009BACDF /* ClitchUITests.swift */,
+				6BC8B230205AA3B8009BACDF /* Info.plist */,
+			);
+			path = ClitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC8B20A205AA3B7009BACDF /* Clitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC8B233205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "Clitch" */;
+			buildPhases = (
+				6BC8B207205AA3B7009BACDF /* Sources */,
+				6BC8B208205AA3B7009BACDF /* Frameworks */,
+				6BC8B209205AA3B7009BACDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clitch;
+			productName = Clitch;
+			productReference = 6BC8B20B205AA3B8009BACDF /* Clitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BC8B21E205AA3B8009BACDF /* ClitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC8B236205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "ClitchTests" */;
+			buildPhases = (
+				6BC8B21B205AA3B8009BACDF /* Sources */,
+				6BC8B21C205AA3B8009BACDF /* Frameworks */,
+				6BC8B21D205AA3B8009BACDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC8B221205AA3B8009BACDF /* PBXTargetDependency */,
+			);
+			name = ClitchTests;
+			productName = ClitchTests;
+			productReference = 6BC8B21F205AA3B8009BACDF /* ClitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BC8B229205AA3B8009BACDF /* ClitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC8B239205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "ClitchUITests" */;
+			buildPhases = (
+				6BC8B226205AA3B8009BACDF /* Sources */,
+				6BC8B227205AA3B8009BACDF /* Frameworks */,
+				6BC8B228205AA3B8009BACDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC8B22C205AA3B8009BACDF /* PBXTargetDependency */,
+			);
+			name = ClitchUITests;
+			productName = ClitchUITests;
+			productReference = 6BC8B22A205AA3B8009BACDF /* ClitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC8B203205AA3B7009BACDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Clitch;
+				TargetAttributes = {
+					6BC8B20A205AA3B7009BACDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6BC8B21E205AA3B8009BACDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BC8B20A205AA3B7009BACDF;
+					};
+					6BC8B229205AA3B8009BACDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BC8B20A205AA3B7009BACDF;
+					};
+				};
+			};
+			buildConfigurationList = 6BC8B206205AA3B7009BACDF /* Build configuration list for PBXProject "Clitch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC8B202205AA3B7009BACDF;
+			productRefGroup = 6BC8B20C205AA3B8009BACDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC8B20A205AA3B7009BACDF /* Clitch */,
+				6BC8B21E205AA3B8009BACDF /* ClitchTests */,
+				6BC8B229205AA3B8009BACDF /* ClitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC8B209205AA3B7009BACDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC8B219205AA3B8009BACDF /* LaunchScreen.storyboard in Resources */,
+				6BC8B216205AA3B8009BACDF /* Assets.xcassets in Resources */,
+				6BC8B214205AA3B8009BACDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8B21D205AA3B8009BACDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8B228205AA3B8009BACDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC8B207205AA3B7009BACDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC8B211205AA3B8009BACDF /* ViewController.swift in Sources */,
+				6BC8B20F205AA3B8009BACDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8B21B205AA3B8009BACDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC8B224205AA3B8009BACDF /* ClitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8B226205AA3B8009BACDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC8B22F205AA3B8009BACDF /* ClitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BC8B221205AA3B8009BACDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BC8B20A205AA3B7009BACDF /* Clitch */;
+			targetProxy = 6BC8B220205AA3B8009BACDF /* PBXContainerItemProxy */;
+		};
+		6BC8B22C205AA3B8009BACDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BC8B20A205AA3B7009BACDF /* Clitch */;
+			targetProxy = 6BC8B22B205AA3B8009BACDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BC8B212205AA3B8009BACDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC8B213205AA3B8009BACDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BC8B217205AA3B8009BACDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC8B218205AA3B8009BACDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BC8B231205AA3B8009BACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BC8B232205AA3B8009BACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC8B234205AA3B8009BACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Clitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clitch.Clitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6BC8B235205AA3B8009BACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Clitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clitch.Clitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6BC8B237205AA3B8009BACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clitch.ClitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clitch.app/Clitch";
+			};
+			name = Debug;
+		};
+		6BC8B238205AA3B8009BACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clitch.ClitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clitch.app/Clitch";
+			};
+			name = Release;
+		};
+		6BC8B23A205AA3B8009BACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clitch.ClitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clitch;
+			};
+			name = Debug;
+		};
+		6BC8B23B205AA3B8009BACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clitch.ClitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC8B206205AA3B7009BACDF /* Build configuration list for PBXProject "Clitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC8B231205AA3B8009BACDF /* Debug */,
+				6BC8B232205AA3B8009BACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC8B233205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "Clitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC8B234205AA3B8009BACDF /* Debug */,
+				6BC8B235205AA3B8009BACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC8B236205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "ClitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC8B237205AA3B8009BACDF /* Debug */,
+				6BC8B238205AA3B8009BACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC8B239205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "ClitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC8B23A205AA3B8009BACDF /* Debug */,
+				6BC8B23B205AA3B8009BACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC8B203205AA3B7009BACDF /* Project object */;
+}
