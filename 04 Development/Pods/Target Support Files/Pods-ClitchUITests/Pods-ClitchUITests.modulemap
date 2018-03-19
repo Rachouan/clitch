@@ -1,0 +1,6 @@
+framework module Pods_ClitchUITests {
+  umbrella header "Pods-ClitchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

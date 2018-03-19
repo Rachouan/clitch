@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28E65BE483F269F879D36799 /* Pods_ClitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4D444E574E6B901F715F90 /* Pods_ClitchUITests.framework */; };
 		6BC8B20F205AA3B8009BACDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */; };
 		6BC8B211205AA3B8009BACDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B210205AA3B8009BACDF /* ViewController.swift */; };
 		6BC8B214205AA3B8009BACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B212205AA3B8009BACDF /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		6BC8B219205AA3B8009BACDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B217205AA3B8009BACDF /* LaunchScreen.storyboard */; };
 		6BC8B224205AA3B8009BACDF /* ClitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B223205AA3B8009BACDF /* ClitchTests.swift */; };
 		6BC8B22F205AA3B8009BACDF /* ClitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B22E205AA3B8009BACDF /* ClitchUITests.swift */; };
+		7078B2FC9DD36C1D6C4A8865 /* Pods_ClitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1952F378D47D2FB05F9AE7 /* Pods_ClitchTests.framework */; };
+		8CF1B3E600750CFCC90E6896 /* Pods_Clitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F292E8D12CE166439A782681 /* Pods_Clitch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A994D318821AC92265F4AA7 /* Pods-ClitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchUITests/Pods-ClitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B4D444E574E6B901F715F90 /* Pods_ClitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490BA25C2AAD099EF5F6ED70 /* Pods-ClitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchUITests/Pods-ClitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60126896716D4E46FDC2E8E1 /* Pods-ClitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchTests/Pods-ClitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66BD892618894B8B6C9115A5 /* Pods-Clitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clitch/Pods-Clitch.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC8B20B205AA3B8009BACDF /* Clitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BC8B210205AA3B8009BACDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		6BC8B22A205AA3B8009BACDF /* ClitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC8B22E205AA3B8009BACDF /* ClitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClitchUITests.swift; sourceTree = "<group>"; };
 		6BC8B230205AA3B8009BACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1952F378D47D2FB05F9AE7 /* Pods_ClitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A88487C0570B5405C62AF2 /* Pods-Clitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clitch/Pods-Clitch.release.xcconfig"; sourceTree = "<group>"; };
+		E3A291F06E273A047A4C3629 /* Pods-ClitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchTests/Pods-ClitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		F292E8D12CE166439A782681 /* Pods_Clitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF1B3E600750CFCC90E6896 /* Pods_Clitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7078B2FC9DD36C1D6C4A8865 /* Pods_ClitchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E65BE483F269F879D36799 /* Pods_ClitchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				6BC8B222205AA3B8009BACDF /* ClitchTests */,
 				6BC8B22D205AA3B8009BACDF /* ClitchUITests */,
 				6BC8B20C205AA3B8009BACDF /* Products */,
+				C29DB10BF5E5FDD785F49997 /* Pods */,
+				765BC0B1DC8E29F8ACDFB758 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = ClitchUITests;
 			sourceTree = "<group>";
 		};
+		765BC0B1DC8E29F8ACDFB758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F292E8D12CE166439A782681 /* Pods_Clitch.framework */,
+				8A1952F378D47D2FB05F9AE7 /* Pods_ClitchTests.framework */,
+				1B4D444E574E6B901F715F90 /* Pods_ClitchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29DB10BF5E5FDD785F49997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66BD892618894B8B6C9115A5 /* Pods-Clitch.debug.xcconfig */,
+				C7A88487C0570B5405C62AF2 /* Pods-Clitch.release.xcconfig */,
+				60126896716D4E46FDC2E8E1 /* Pods-ClitchTests.debug.xcconfig */,
+				E3A291F06E273A047A4C3629 /* Pods-ClitchTests.release.xcconfig */,
+				490BA25C2AAD099EF5F6ED70 /* Pods-ClitchUITests.debug.xcconfig */,
+				0A994D318821AC92265F4AA7 /* Pods-ClitchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC8B233205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "Clitch" */;
 			buildPhases = (
+				29EB1BAE6E5D3C8C8A58D7BE /* [CP] Check Pods Manifest.lock */,
 				6BC8B207205AA3B7009BACDF /* Sources */,
 				6BC8B208205AA3B7009BACDF /* Frameworks */,
 				6BC8B209205AA3B7009BACDF /* Resources */,
+				18EB73E9A6BF139D429F712E /* [CP] Embed Pods Frameworks */,
+				2BDABDB8EA03A204385ABF42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC8B236205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "ClitchTests" */;
 			buildPhases = (
+				8F397A68A96F8022BA926F00 /* [CP] Check Pods Manifest.lock */,
 				6BC8B21B205AA3B8009BACDF /* Sources */,
 				6BC8B21C205AA3B8009BACDF /* Frameworks */,
 				6BC8B21D205AA3B8009BACDF /* Resources */,
+				90B26DAE398BD64B8C33B55E /* [CP] Embed Pods Frameworks */,
+				D3B47AED87439ED9EA3C4A8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC8B239205AA3B8009BACDF /* Build configuration list for PBXNativeTarget "ClitchUITests" */;
 			buildPhases = (
+				BD540DE2B6772E1DCD3D8B57 /* [CP] Check Pods Manifest.lock */,
 				6BC8B226205AA3B8009BACDF /* Sources */,
 				6BC8B227205AA3B8009BACDF /* Frameworks */,
 				6BC8B228205AA3B8009BACDF /* Resources */,
+				3CEA6658F7EEC50DA0A4A8BC /* [CP] Embed Pods Frameworks */,
+				69AED06963CE3A6911F5C74C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EB73E9A6BF139D429F712E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clitch/Pods-Clitch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clitch/Pods-Clitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29EB1BAE6E5D3C8C8A58D7BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDABDB8EA03A204385ABF42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clitch/Pods-Clitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CEA6658F7EEC50DA0A4A8BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClitchUITests/Pods-ClitchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69AED06963CE3A6911F5C74C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClitchUITests/Pods-ClitchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F397A68A96F8022BA926F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B26DAE398BD64B8C33B55E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClitchTests/Pods-ClitchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD540DE2B6772E1DCD3D8B57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClitchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B47AED87439ED9EA3C4A8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClitchTests/Pods-ClitchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BC8B207205AA3B7009BACDF /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		6BC8B234205AA3B8009BACDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BD892618894B8B6C9115A5 /* Pods-Clitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +638,7 @@
 		};
 		6BC8B235205AA3B8009BACDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A88487C0570B5405C62AF2 /* Pods-Clitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +653,7 @@
 		};
 		6BC8B237205AA3B8009BACDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60126896716D4E46FDC2E8E1 /* Pods-ClitchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +670,7 @@
 		};
 		6BC8B238205AA3B8009BACDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A291F06E273A047A4C3629 /* Pods-ClitchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +687,7 @@
 		};
 		6BC8B23A205AA3B8009BACDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490BA25C2AAD099EF5F6ED70 /* Pods-ClitchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +703,7 @@
 		};
 		6BC8B23B205AA3B8009BACDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A994D318821AC92265F4AA7 /* Pods-ClitchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
