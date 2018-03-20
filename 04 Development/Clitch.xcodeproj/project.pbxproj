@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		28E65BE483F269F879D36799 /* Pods_ClitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4D444E574E6B901F715F90 /* Pods_ClitchUITests.framework */; };
+		2C3C97A62061B91100E71F06 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C97A52061B91100E71F06 /* SignInViewController.swift */; };
 		6BC8B20F205AA3B8009BACDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */; };
-		6BC8B211205AA3B8009BACDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8B210205AA3B8009BACDF /* ViewController.swift */; };
 		6BC8B214205AA3B8009BACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B212205AA3B8009BACDF /* Main.storyboard */; };
 		6BC8B216205AA3B8009BACDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B215205AA3B8009BACDF /* Assets.xcassets */; };
 		6BC8B219205AA3B8009BACDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8B217205AA3B8009BACDF /* LaunchScreen.storyboard */; };
@@ -39,12 +39,12 @@
 /* Begin PBXFileReference section */
 		0A994D318821AC92265F4AA7 /* Pods-ClitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchUITests/Pods-ClitchUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1B4D444E574E6B901F715F90 /* Pods_ClitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3C97A52061B91100E71F06 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		490BA25C2AAD099EF5F6ED70 /* Pods-ClitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchUITests/Pods-ClitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		60126896716D4E46FDC2E8E1 /* Pods-ClitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClitchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClitchTests/Pods-ClitchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66BD892618894B8B6C9115A5 /* Pods-Clitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clitch/Pods-Clitch.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC8B20B205AA3B8009BACDF /* Clitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6BC8B210205AA3B8009BACDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BC8B213205AA3B8009BACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BC8B215205AA3B8009BACDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC8B218205AA3B8009BACDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3C97A82061B93400E71F06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C3C97A52061B91100E71F06 /* SignInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		6BC8B202205AA3B7009BACDF = {
 			isa = PBXGroup;
 			children = (
@@ -115,11 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				6BC8B20E205AA3B8009BACDF /* AppDelegate.swift */,
-				6BC8B210205AA3B8009BACDF /* ViewController.swift */,
 				6BC8B212205AA3B8009BACDF /* Main.storyboard */,
 				6BC8B215205AA3B8009BACDF /* Assets.xcassets */,
 				6BC8B217205AA3B8009BACDF /* LaunchScreen.storyboard */,
 				6BC8B21A205AA3B8009BACDF /* Info.plist */,
+				2C3C97A82061B93400E71F06 /* ViewControllers */,
 			);
 			path = Clitch;
 			sourceTree = "<group>";
@@ -458,8 +466,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC8B211205AA3B8009BACDF /* ViewController.swift in Sources */,
 				6BC8B20F205AA3B8009BACDF /* AppDelegate.swift in Sources */,
+				2C3C97A62061B91100E71F06 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
