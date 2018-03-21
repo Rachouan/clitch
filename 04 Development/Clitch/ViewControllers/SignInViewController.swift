@@ -33,6 +33,11 @@ class SignInViewController: UIViewController {
         signInButton.layer.insertSublayer(gradientLayer, at: 0)
        
     }
+    
+    @IBAction func signInAction(_ sender: Any) {
+        signInButton.animate(AnimationType.shake(repeatCount: 1), duration: 0.2, damping: 0.8, velocity: 1.0, force: 0.8)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
