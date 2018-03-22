@@ -20,6 +20,7 @@ class SignInViewController: UIViewController {
         
         let firstColor = UIColor(displayP3Red: 214.0/255.0, green: 21.0/255.0, blue: 70.0/255.0, alpha: 1.0).cgColor
         let secondColor = UIColor(displayP3Red: 255.0/255.0, green: 46.0/255.0, blue: 99.0/255.0, alpha: 1.0).cgColor
+        
 
         let gradientColors = [firstColor, secondColor]
         let gradientLayer = CAGradientLayer()

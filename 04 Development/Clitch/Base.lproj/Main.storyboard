@@ -160,10 +160,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vC8-o4-sQi">
-                                <rect key="frame" x="0.0" y="63" width="375" height="555"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CzW-0f-6ua">
                                 <rect key="frame" x="0.0" y="392" width="375" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -215,11 +211,18 @@
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="174" height="203"/>
+                                        <connections>
+                                            <segue destination="bek-Mn-XB5" kind="presentation" id="Plp-O3-iDw"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vC8-o4-sQi">
+                                <rect key="frame" x="0.0" y="63" width="375" height="555"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="fQT-C2-bwV"/>
                     </view>
                     <navigationItem key="navigationItem" id="A3h-Sp-mPg"/>
@@ -228,10 +231,10 @@
             </objects>
             <point key="canvasLocation" x="3048.8000000000002" y="-618.44077961019491"/>
         </scene>
-        <!--View Controller-->
+        <!--Event Details View Controller-->
         <scene sceneID="TQm-Va-J2x">
             <objects>
-                <viewController id="bek-Mn-XB5" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="bek-Mn-XB5" customClass="EventDetailsViewController" customModule="Clitch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wy3-KZ-6HL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,11 +249,18 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="MsL-R3-ZLI"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rh5-3W-BrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Ikw-pj-2lB">
+                    <connections>
+                        <action selector="panGestureRecognizerHandler:" destination="bek-Mn-XB5" id="CFW-bw-5PO"/>
+                        <outlet property="delegate" destination="wy3-KZ-6HL" id="jeg-Wl-uzu"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3756" y="-618.44077961019491"/>
         </scene>
@@ -326,7 +336,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="qtf-VI-gY3"/>
                     </view>
                     <navigationItem key="navigationItem" id="yhM-Wg-HBs"/>
@@ -342,7 +352,7 @@
                     <view key="view" contentMode="scaleToFill" id="E7v-5a-dbi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="IMO-K8-F8o"/>
                     </view>
                     <navigationItem key="navigationItem" id="wPC-xQ-10f"/>
