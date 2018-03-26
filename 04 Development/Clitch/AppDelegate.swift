@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Google maps API key
+        GMSServices.provideAPIKey("AIzaSyAH_s2ULJSJ3oLMOx2cvgNWxsCh-Y6-8yE")
+        
+        //Set the tabbar's color to black and it's tint to some greenish color
+        UITabBar.appearance().backgroundColor = UIColor.black
+        UITabBar.appearance().tintColor = UIColor(hue: 48/255.0, saturation: 227/255.0, brightness: 202/255.0, alpha: 1.0)
         return true
     }
 

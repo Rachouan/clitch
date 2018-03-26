@@ -9,6 +9,7 @@ target 'Clitch' do
 
   # Pods for Clitch
   pod 'IBAnimatable'
+  pod 'GoogleMaps'
 
   target 'ClitchTests' do
     inherit! :search_paths

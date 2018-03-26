@@ -1,12 +1,19 @@
 PODS:
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
   - IBAnimatable (5.0.0)
 
 DEPENDENCIES:
+  - GoogleMaps
   - IBAnimatable
 
 SPEC CHECKSUMS:
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
 
-PODFILE CHECKSUM: 17685a00eab1371c4246fb0bf901530786a4ea8c
+PODFILE CHECKSUM: 15144974f3712fa6d90aaafa6dce2e3900424953
 
 COCOAPODS: 1.4.0
