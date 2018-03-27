@@ -244,6 +244,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="QTj-g3-Fzl" id="5q1-JV-aSW"/>
+                                    <outlet property="delegate" destination="QTj-g3-Fzl" id="GvW-UQ-dz0"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

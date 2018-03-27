@@ -9,7 +9,16 @@
 import UIKit
 import GoogleMaps
 
-class EventsViewController: UIViewController {
+class EventsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    //MARK: Collectionview
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return nil
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return nil
+    }
     
     
     override func viewDidLoad() {
