@@ -198,7 +198,7 @@
                                     <inset key="sectionInset" minX="12" minY="0.0" maxX="0.0" maxY="7"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" semanticContentAttribute="forceLeftToRight" reuseIdentifier="cell" id="z0f-h7-Thv">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" semanticContentAttribute="forceLeftToRight" reuseIdentifier="eventCell" id="z0f-h7-Thv" customClass="eventCollectionViewCell" customModule="Clitch" customModuleProvider="target">
                                         <rect key="frame" x="12" y="8" width="174" height="203"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -235,6 +235,17 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="DetailsButton"/>
                                                 </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5stars" translatesAutoresizingMaskIntoConstraints="NO" id="B6J-02-feI">
+                                                    <rect key="frame" x="15" y="171" width="54" height="9"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9r-Qa-284">
+                                                    <rect key="frame" x="6" y="20" width="131" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -254,6 +265,9 @@
                         <viewLayoutGuide key="safeArea" id="fQT-C2-bwV"/>
                     </view>
                     <navigationItem key="navigationItem" id="A3h-Sp-mPg"/>
+                    <connections>
+                        <outlet property="collectionView" destination="CzW-0f-6ua" id="b7t-iN-jtx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDY-gt-w6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -459,6 +473,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="5stars" width="1960" height="300"/>
         <image name="DetailsButton" width="40" height="40"/>
         <image name="blueCardBackground" width="335" height="200"/>
         <image name="key" width="128" height="128"/>

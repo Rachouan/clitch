@@ -11,19 +11,38 @@ import GoogleMaps
 
 class EventsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     //MARK: Collectionview
+    var streetArray = [String]()
+    var eventImages = [UIImage]()
+    var kmArray = [String]()
+    var dateArray = [String]()
+
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return nil
+        return streetArray.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return nil
+        let cell: eventCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "eventCell", for: indexPath) as! eventCollectionViewCell
+        
+        
+        return cell
+    }
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //Set up collectionview
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
         // Create a GMSCameraPosition that tells the map to display the
         // coordinate -33.86,151.20 at zoom level 6.
         let camera = GMSCameraPosition.camera(withLatitude: 50.8503, longitude: 4.3517, zoom: 14.0)
