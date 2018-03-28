@@ -12,12 +12,15 @@ import GoogleMaps
 class EventsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var mapView: GMSMapView!
+    @IBOutlet weak var gradientView: UIView!
+    
     
     //MARK: Collectionview
-    var streetArray = [String]()
-    var eventImages = [UIImage]()
-    var kmArray = [String]()
-    var dateArray = [String]()
+    var streetArray = ["Avenue Louise", "Rue De Bouckere", "Avenue Louise"]
+    var kmArray = ["2.5 km", "2.3 km", "2.5 km"]
+    var dateArray = ["March 2018", "October 2018", "November 2018"]
+    
 
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -26,7 +29,9 @@ class EventsViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: eventCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "eventCell", for: indexPath) as! eventCollectionViewCell
-        
+        cell.streetLabel.text = streetArray[indexPath.row]
+        cell.distanceLabel.text = kmArray[indexPath.row]
+        cell.dateLabel.text = dateArray[indexPath.row]
         
         return cell
     }
@@ -34,6 +39,17 @@ class EventsViewController: UIViewController, UICollectionViewDelegate, UICollec
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
+    
+    override func viewDidLayoutSubviews() {
+     
+        //Set up gradient view
+        let gradient = CAGradientLayer()
+        gradient.frame = self.gradientView.bounds
+        gradient.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
+        gradient.locations = [0.6, 0.9]
+        gradientView.layer.addSublayer(gradient)
+    }
+    
     
     
     override func viewDidLoad() {
@@ -43,10 +59,11 @@ class EventsViewController: UIViewController, UICollectionViewDelegate, UICollec
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        
         // Create a GMSCameraPosition that tells the map to display the
         // coordinate -33.86,151.20 at zoom level 6.
         let camera = GMSCameraPosition.camera(withLatitude: 50.8503, longitude: 4.3517, zoom: 14.0)
-        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        mapView.camera = camera
         
         do {
             // Set the map style by passing the URL of the local file.
@@ -60,8 +77,7 @@ class EventsViewController: UIViewController, UICollectionViewDelegate, UICollec
         }
 
         
-        //mapView.addSubview(mapview)
-        view = mapView
+        
         
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
